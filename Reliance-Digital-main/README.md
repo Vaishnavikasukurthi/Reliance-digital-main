@@ -1,5 +1,5 @@
-# gnarly-weight-8311
-clone of Reliance Digital using HTML ,CSS and javaScript (Construct week project -Unit-2) It this project i added the the navbar which has dropdown menu and also added the the carousel and added dummy data from original website using css grid .   -
+# Digital world
+clone of Reliance Digital using HTML ,CSS and javaScript  In this project i added the the navbar which has dropdown menu and also added the the carousel and added dummy data from original website using css grid .   -
 
 
 ## Let's Dive into What we have made
@@ -7,9 +7,6 @@ clone of Reliance Digital using HTML ,CSS and javaScript (Construct week project
 ## Home Page :
 ![Screenshot_20230228_020029](https://user-images.githubusercontent.com/112061123/221797475-bdbee88c-9f5c-47ad-8fcb-399a84b1b0fb.png)
 
-## GamingConsole Page :
-
-![Screenshot_20230228_020115](https://user-images.githubusercontent.com/112061123/221797608-bd6571ac-ca73-488b-a924-3775d43a6fa4.png)
 
 
 ## Login Page :
