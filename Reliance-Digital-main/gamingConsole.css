@@ -1,0 +1,245 @@
+
+        *{
+            border: 0px solid black;
+
+        }
+        #navbar{
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%; /* Full width */
+            z-index:5;
+        }
+        #topSection{
+            margin-left: 75px;
+            margin-top: 100px;
+            width: 100%;
+        }     
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        /* #top0{
+            background-color: red;
+            z-index: 0;
+            display: flex;
+            margin-left: 10px;
+            position: relative;
+            top: 0;
+            width: 100%;
+        } */
+        #top{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* padding: 20px; */
+            background-color: rgb(228,37,41);
+
+        }
+        #bottom .drop{
+            /* background:red; */
+            color: white;
+            width: 100%;
+            top:65px;
+            line-height: 45px;
+            background-image: url("https://www.reliancedigital.in/medias/Mobiles-Tablet-Menu-Banners-04-01-2021-01.jpg?context=bWFzdGVyfGltYWdlc3wxMTkxOTN8aW1hZ2UvanBlZ3xpbWFnZXMvaGM0L2gxNy85NTIwNDc1MzczNTk4LmpwZ3xjMmU0NzlmMWZjODQyMmFmNDZhMjA2NTUwZTVhNTI4ODcxMWVkZjM5YzgyNDY3YTE3ODU1OWM0NGQyY2E4MmVi");
+            position: absolute;
+            background-size: cover;
+            height: fit-content;
+            opacity: 0;
+            visibility: hidden;
+        }
+        #bottom div:hover .drop{
+            top: 65px;
+            color: white;
+            opacity: 1;
+            visibility: visible;
+            transition: all 0.3s ease ;
+            }
+            .drop>div{
+                display: flex;
+                gap: 30px;
+            }
+            .drop>div>div{
+                /* text-align: center; */
+                margin-left: 20px;
+                line-height:18px;
+            }
+        #list1{
+            display: flex;
+            width: 300px;
+            justify-content: space-around;
+        }
+        form>input{
+            border-radius: 20px;
+            margin:auto;
+            background-color: white;
+            padding: 10px;
+        }
+       form>button{
+            border-radius: 20px;
+            margin:auto;
+            background-color: white;
+            padding: 8px;
+        }
+        #bottom{
+            background-color:rgb(0,51,128);
+            color: white;
+            font-size: 15px;
+            height: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #bottom h3:hover,#bottom p:hover{
+            cursor: pointer;
+            text-decoration: underline;
+
+        }
+        form{
+            background-color: white;
+            border-radius: 20px;
+        }
+        /* ====================================================================================
+         */
+
+         #foot1{
+            background-color:rgb(0,51,128);
+            
+        }
+        #ftop{
+            display: flex;
+            color: white;
+            justify-content: space-around;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+        #ftop>div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        #fmid{
+            
+            margin-left: 100px;
+            color: white;
+            padding-bottom: 40px;
+            display: flex;
+            gap: 300px;
+        }
+        #one>div{
+            display: flex;
+            width: 60px;
+            gap: 30px;
+        }
+        #two>div{
+            display: flex;
+            gap: 15px;
+        }
+        #two>div>div>img{
+            width: 120px;
+        }
+        #foot2{
+            margin-top: -20px;
+            background-color: rgb(10,36,74);
+        }
+        
+        #f2top>div{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            color: white;
+            padding:20px;
+        }
+        #f2bot>div{
+            width: 80%;
+            margin: auto;
+            color: white;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        /* =========================================================================================== */
+
+        .swiper-slide>img{
+            width: 100%;
+        }
+        #live0{
+            margin-top: 65px;
+        }
+        #stick{
+            display: flex;
+            color: gray;
+            margin-left: 20px;
+            align-items: center;
+        }
+        .main{
+            display: flex;
+        }
+        .main1{
+            width: 20%;
+            padding-left: 20px;
+        }
+        .main2{
+            width: 80%;
+        }
+        #m1{
+            display: flex;
+            justify-content: space-between;
+            margin-right: 40px;
+        }
+        #m2{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        #m2>div img{
+            width: 200px;
+
+        }
+        #m2>div img:hover{
+            width: 210px;
+        }
+        #m2>div{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            padding: 10px;
+            
+        }
+        #m2>div:hover h4{
+            color: red;
+           
+        }
+        #m2>div:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        #m22{
+            display: flex;
+            align-items: center;
+        }
+        .bot{
+            display: flex;
+        }
+        .botl{
+            width: 70%;
+            padding: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .botr{
+            width: 30%;
+            padding: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .botr>table{
+            border: 1px solid black;
+        }
+        .botr>table td{
+            
+            border: 1px solid black;
+        }
+        .botr>table th{
+            border: 1px solid black;
+            background-color: gainsboro;
+        }
+           #login:hover{
+            cursor: pointer;
+           color: white;
+           font-size: 20px;
+         }
